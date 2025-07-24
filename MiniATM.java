@@ -10,7 +10,7 @@ public class MiniATM {
             switch (choice) {
                 case 1:
                 //System.out.println("\n1.Deposit 2.Withdraw 3.Balance 4.Exit");
-                    System.out.print("Enter amount: ");
+                    System.out.print("Enter amounts: ");
                     balance += sc.nextInt();
                     System.out.println("-------------");
                     break;
